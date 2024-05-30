@@ -1,0 +1,224 @@
+body {  /* Seteaza imaginea de fundal */
+    background-image: url('Assets/Fundal2.jpg');
+    background-repeat: repeat;
+}
+
+#title {    /* Dimensiunea fontului la titlu */
+    font-size: 3em;
+}
+
+/* CULORI */
+
+/* Culoarea YELLOW pentru CONSULTATII si RETETE */
+
+.thead-yellow {
+    background-color: #f4ab25;
+    text-align: center;
+    font-weight: bold;
+}
+
+#title-yellow { 
+    font-size: 3em;
+    text-align: center; 
+    color: #cc9600;
+}
+
+.panel-yellow {
+    border: 1px solid #cc9600;
+}
+
+.yellow-heading {
+    background-color: #fbecd0;
+    color: #cc9600;
+}
+
+.bg-yellow {
+    background-color: #fbecd0;
+}
+
+.btn-yellow {
+    background-color: #e69500;
+    color: white;
+}
+
+/* Culoarea PURPLE pentru DOCTORI */
+
+.thead-purple {
+    background-color: #ba88dd;
+    text-align: center;
+    font-weight: bold;
+}
+
+#title-purple {
+    font-size: 3em;
+    text-align: center;
+    color: #6864b4;
+}
+
+.panel-purple {
+    border: 1px solid #5D59AF;
+}
+
+.purple-heading {
+    background-color: #dccbe7;
+    color: #5D59AF;
+}
+
+.bg-purple {
+    background-color: #dccbe7;
+}
+
+.btn-purple {
+    background-color: #8750af;
+    color: white;
+}
+
+.glyph-purple {
+    color: #6864b4;
+}
+
+/* Culoarea BLUE pentru MEDICAMENTE */
+
+.thead-blue {
+    background-color: #0275d8;
+    text-align: center;
+    font-weight: bold;
+}
+
+#title-blue {
+    font-size: 3em;
+    text-align: center;
+    color: #347cd4;
+}
+
+.panel-blue {
+    border: 1px solid #286bbd;
+}
+
+.blue-heading {
+    color: #286bbd;
+    background-color: #e0ecf4;
+}
+
+.btn-blue {
+    background-color: #347cd4;
+    color: white;
+}
+
+.glyph-blue {
+    color: #347cd4;
+}
+
+/* Culoarea CYAN pentru PACIENTI */
+
+.thead-cyan {
+    background-color: #04ECF0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.panel-cyan {
+    border: 1px solid #048fae;
+}
+
+#title-cyan {
+    font-size: 3em;
+    text-align: center;
+    color: #048fae;
+}
+
+.cyan-heading {
+    background-color: #b9f9f8;
+    color: #048fae;
+}
+
+.bg-cyan {
+    background-color: #b9f9f8;
+}
+
+.btn-cyan {
+    background-color: #03c8e2;
+    color: white;
+}
+
+.glyph-cyan {
+    color: #048fae;
+}
+
+/* Culoarea ORANGE pentru SPECIALIZARI */
+
+.thead-orange {
+    background-color: #f7926e;
+    text-align: center;
+    font-weight: bold;
+}
+
+#title-orange {
+    font-size: 3em;
+    text-align: center;
+    color: #bb2b11;
+}
+
+.panel-orange {
+    border: 1px solid #bb2b11;
+}
+
+.orange-heading {
+    background-color: #facab7;
+    color: #bb2b11;
+}
+
+.bg-orange {
+    background-color: #fbc9b6;
+}
+
+.btn-orange {
+    background-color: #F67B50;
+    color: white;
+}
+
+.glyph-orange{
+    color: #cc9600;
+}
+
+/* ALTELE */
+
+.legenda {      /* Alinierea la dreapta pentru prima coloana din diverse tabele */
+    text-align: right;
+}
+
+fieldset {      /* Bordura rotunjita pentru fieldset-uri, respectiv font mai mare pentru filtrare in VeziConsultatii.php */
+    border-radius: 15px;
+    font-size: 1.05em;
+}
+
+header {        /* Text mai mare, centrat pentru textul header din paginile Adauga... si Modifica... */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.error {        /* Culoarea rosie pentru textul care apare ca eroare in paginile Adauga... si Modifica... */
+    color: red;
+}
+
+star {          /* Culoarea stelutei care indica campuri obligatorii on paginile Adauga... si Modifica... */
+    color: red;
+}
+
+p {         /* Padding pentru paragraful din fieldset in pagina VeziConsultatii.php */
+    padding: 10px;
+}
+
+.id {       /* Dimensiunea coloanei ID din diverse tabele sa fie mai mica */
+    width: 30px;
+}
+
+.actions {      /* Dimensiunea coloanei actions din diverse tabele sa fie mai mica si textul aliniat la centru */
+    width: 70px;
+    text-align: center;
+}
+
+#white {        /* Culoarea de fundal a anumitor elemente sa fie alb */
+    background-color: white;
+}
